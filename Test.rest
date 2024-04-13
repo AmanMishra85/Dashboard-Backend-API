@@ -1,0 +1,14 @@
+POST http://localhost:5000/insert
+Content-Type: application/json;
+
+###
+POST http://localhost:5000/delete
+Content-Type: application/json
+
+### 
+GET http://localhost:5000
+Content-Type: application/json
+
+###
+GET   http://localhost:5000/specific
+Content-Type: application/json
